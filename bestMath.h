@@ -1,11 +1,9 @@
 /*
- * This header file defines a reliable modular function
- * I was sick of the flawed % and remainder(), so, here
- * you go!
- *
  * If f is == 0 then the function will retuen -1 without
  * printing a waring. use this value to detect improper use
- *
+ * There was originally supposed to be a char buf[f] but it 
+ * was deemed useless as it wasn't used. 
+ * I will be removing the f size restrictions in the next update.
  * Built by Alex Bestoso
  */
 
