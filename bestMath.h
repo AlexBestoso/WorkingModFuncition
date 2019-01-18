@@ -34,7 +34,7 @@ signed int bestModu(signed int n, size_t f){
 							/* no, rets value is correct */
 			n--;				/* decrement the amount of steps remaining */
 		}	
-		return ret;				/* return result when n is a positive number */
+		return ret;				
 	}else{
 	/* calculate the working % relative to
          * negative numbers!
@@ -44,7 +44,7 @@ signed int bestModu(signed int n, size_t f){
 			if(ret <= -1 || ret >= f)	/* is ret negative? f is bc hackers */
 				ret = f-1;		/* yes, set ret to f-1 bc to the left of 0 is f-1, not -1(positve amt of "pie slices")*/
 							/* no, rets value is correct */
-			n++;				/* decrement total amunt of required steps. */
+			n++;				/* increment total amunt of required steps bc negative n. */
 		}
 		return ret;
 	}
