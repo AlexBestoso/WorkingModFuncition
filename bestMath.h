@@ -3,10 +3,6 @@
  * I was sick of the flawed % and remainder(), so, here
  * you go!
  *
- * The f(field size) must be unsigned to prevent overflow.
- * To use a negative field size, you must multiply your
- * return value by -1 :)
- *
  * If f is == 0 then the function will retuen -1 without
  * printing a waring. use this value to detect improper use
  *
