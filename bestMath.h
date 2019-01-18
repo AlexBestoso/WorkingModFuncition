@@ -9,6 +9,12 @@
  * Built by Alex Bestoso
  */
 
+/*
+ * n is short hand for number and f is shorthand for fieldsize
+ * This function lets you execute: foo = n % f where n is either 
+ * positive or negative. The % operator wasn't giving me the correct
+ * answer relative to gcc on linux.
+ */
 signed int bestModu(signed int n, size_t f){
 	signed int ret = 0;
 	if(f == 0){
